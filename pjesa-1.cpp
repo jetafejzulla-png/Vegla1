@@ -24,3 +24,4 @@ void futTeDhenaStudenti(Studenti &s) {
 bool eshteIRegjistruar(Studenti s) {
     return s.id > 0 && s.semestri > 0;
 }
+
